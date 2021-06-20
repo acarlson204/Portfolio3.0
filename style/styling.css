@@ -19,6 +19,9 @@ a:hover {
     font-style: italic;
     transition:  all 500ms ease-in-out;
 }
+ footer {
+     text-rendering: optimizeLegibility;
+ }
  h1, h3, h4 {
      font-weight: 400;    
  }
@@ -31,12 +34,13 @@ a:hover {
  h3 {
      font-size: 31.5px;
  }
+ .line-height {
+     line-height: 1.5;
+ }
  main img {
      width: 500px;
  }
- footer {
-     text-rendering: optimizeLegibility;
- }
+
  ul {
      list-style: none;
      padding-left: 0;
