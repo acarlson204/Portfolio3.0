@@ -1,6 +1,9 @@
 body {
      font-family: 'Rubik', sans-serif;
-}
+     background-image: url("/images/white-landscape-background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 header button, 
 footer button {
     background-color: #ffffff;
