@@ -1,0 +1,60 @@
+body {
+     font-family: 'Rubik', sans-serif;
+}
+
+
+header button, 
+footer button {
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 120, 215);    
+    border-radius: 3px;
+}
+a {
+     font-size: 20.25px;
+     line-height: 2;
+     text-decoration: none;
+     text-rendering: optimizeLegibility;
+ }
+
+header button:hover, 
+footer button:hover,
+a:hover {
+    font-style: italic;
+    transition:  all 500ms ease-in-out;
+}
+
+
+ h1, h3, h4 {
+     font-weight: 400;    
+ }
+ h1 {
+     font-size: 63px;
+ }
+ h2 {
+     font-size: 47.25 px;
+ }
+ h3 {
+     font-size: 31.5px;
+ }
+ footer {
+     text-rendering: optimizeLegibility;
+ }
+ ul {
+     list-style: none;
+     padding-left: 0;
+ }
+ 
+
+ .center-img, .center {
+     display: block;
+     margin: 0 auto;
+     text-align: center;
+ }
+ .featured__p,
+ .featured__p li {
+     font-weight: 300;
+ 
+ }
+ .intro__subtitle {
+    line-height: 1.4;
+ }
