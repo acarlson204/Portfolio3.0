@@ -22,6 +22,9 @@ a:hover {
     font-style: italic;
     transition:  all 500ms ease-in-out;
 }
+.blue-text {
+    color: #4b6cc1;
+}
  footer {
      text-rendering: optimizeLegibility;
  }
@@ -43,7 +46,11 @@ a:hover {
  main img {
      width: 500px;
  }
-
+.status {
+    border-bottom: 3px solid #4b6cc1;
+    border-top: 3px solid #4b6cc1;
+    border-radius: 10px;
+}
  ul {
      list-style: none;
      padding-left: 0;
