@@ -7,8 +7,14 @@ body {
 header button, 
 footer button {
     background-color: #ffffff;
-    border: 1px solid rgb(0, 120, 215);    
+    border: 1px solid #4b6cc1;  
     border-radius: 3px;
+}
+header button:hover, 
+footer button:hover,
+a:hover {
+    font-style: italic;
+    transition:  all 500ms ease-in-out;
 }
 a {
      font-size: 20.25px;
@@ -16,12 +22,6 @@ a {
      text-decoration: none;
      text-rendering: optimizeLegibility;
  }
-header button:hover, 
-footer button:hover,
-a:hover {
-    font-style: italic;
-    transition:  all 500ms ease-in-out;
-}
 .blue-text {
     color: #4b6cc1;
 }
@@ -43,12 +43,10 @@ a:hover {
  .line-height {
      line-height: 1.5;
  }
- header img {
+.portfolio-img {
      height: 750px;
- }
- main img {
-     width: 500px;
- }
+
+    }
 .status {
     border-bottom: 3px solid #4b6cc1;
     border-top: 3px solid #4b6cc1;
