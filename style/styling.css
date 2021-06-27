@@ -22,6 +22,9 @@ a {
      text-decoration: none;
      text-rendering: optimizeLegibility;
  }
+ button {
+     font-size: 20.25px;
+ }
 .blue-text {
     color: #4b6cc1;
 }
@@ -37,7 +40,9 @@ color:    rgb(149, 137, 158);
  h1, h3, h4 {
      font-weight: 400;    
  }
-
+img {
+    max-height: 400px;
+}
  .line-height {
      line-height: 1.5;
  }
@@ -74,4 +79,20 @@ color:    rgb(149, 137, 158);
     h1 {
         font-size: 35.5px;
     }
+ }
+
+
+ @media (max-width: 400px) {
+     img {
+         max-height: 200px;
+     }
+     body {
+         width: 99%;
+     }
+     header {
+         margin: 10px;
+     }
+     h1, h2, h3, h4, p {
+         margin-left: 0px;
+     }
  }
