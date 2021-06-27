@@ -4,13 +4,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     }
-header button, 
+main button, 
 footer button {
     background-color: #ffffff;
-    border: 1px solid #4b6cc1;  
+    border: 1px solid #e54b4b;
     border-radius: 3px;
 }
-header button:hover, 
+main button:hover, 
 footer button:hover,
 a:hover {
     font-style: italic;
@@ -28,21 +28,20 @@ a {
  footer {
      text-rendering: optimizeLegibility;
  }
+ footer, footer a, main a {
+color:    rgb(149, 137, 158);
+ }
+ header {
+     margin:50px;
+ }
  h1, h3, h4 {
      font-weight: 400;    
  }
- h1 {
-     font-size: 63px;
- }
- h2 {
-     font-size: 47.25 px;
- }
- h3 {
-     font-size: 31.5px;
- }
+
  .line-height {
      line-height: 1.5;
  }
+
 .portfolio-img {
      height: 550px;
     }
@@ -51,9 +50,21 @@ a {
     border-top: 3px solid #4b6cc1;
     border-radius: 10px;
 }
+.custom-toggler {
+    border-color: lightgreen;
+    color: lightgreen;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
  ul {
      list-style: none;
      padding-left: 0;
+ }
+ .nav-link, .logo {
+     color: #fff;
  }
 
  @media (max-width:1000px) {
