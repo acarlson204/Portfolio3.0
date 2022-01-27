@@ -4,13 +4,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     }
-main button, 
+main button,
 footer button {
     background-color: #ffffff;
     border: 1px solid #e54b4b;
     border-radius: 3px;
 }
-main button:hover, 
+main button:hover,
 footer button:hover,
 a:hover {
     transition:  all 500ms ease-in-out;
@@ -25,20 +25,12 @@ a {
  button {
      font-size: 20.25px;
  }
-.blue-text {
-    color: #4b6cc1;
-}
- footer {
-     text-rendering: optimizeLegibility;
- }
- footer, footer a, main a {
-color:    rgb(149, 137, 158);
- }
+
  header {
      margin:50px;
  }
  h1, h3, h4 {
-     font-weight: 400;    
+     font-weight: 400;
  }
 img {
     max-height: 400px;
@@ -55,44 +47,8 @@ img {
     border-top: 3px solid #4b6cc1;
     border-radius: 10px;
 }
-.custom-toggler {
-    border-color: lightgreen;
-    color: lightgreen;
-}
 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
  ul {
      list-style: none;
      padding-left: 0;
- }
- .nav-link, .logo {
-     color: #fff;
- }
- .nav-link:hover {
-    color: #000;
- }
-
- @media (max-width:1000px) {
-    h1 {
-        font-size: 35.5px;
-    }
- }
-
-
- @media (max-width: 400px) {
-     img {
-         max-height: 200px;
-     }
-     body {
-         width: 99%;
-     }
-     header {
-         margin: 10px;
-     }
-     h1, h2, h3, h4, p {
-         margin-left: 0px;
-     }
  }
